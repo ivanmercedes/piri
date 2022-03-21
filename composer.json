@@ -1,0 +1,21 @@
+{
+    "name": "ivan/piriframework",
+    "description": "PHP light framework with flat file NoSQL database",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Mercedes",
+            "email": "ivanmercede@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3",
+        "phroute/phroute": "^2.1",
+        "vlucas/phpdotenv": "^5.4",
+        "rakibtg/sleekdb": "^2.13"
+    }
+}
