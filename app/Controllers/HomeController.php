@@ -6,6 +6,6 @@ class HomeController extends BaseController
 {
         public function getIndex()
         {
-            return 'hola, mundo!';
+            return $this->view('home.twig');
         }
 }
