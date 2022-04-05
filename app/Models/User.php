@@ -6,7 +6,7 @@ use SleekDB\Store;
 
 class User extends Store
 {
-    protected $storeName = "User";
+    protected $storeName = "users";
     protected $databasePath = DATABASE_DIRECTORY;
 
     public function __construct()
