@@ -27,7 +27,7 @@ class MakeModelCommad extends Command
         if(!file_exists(__DIR__.'/../Models/'.ucfirst($name).'.php')){
           
          
-          $template = file_get_contents(__DIR__.'/templates/model.txt');
+          $template = file_get_contents(__DIR__.'/templates/model.stub');
           $template = str_replace('[tablename]',  strtolower($name), $template);
           $template = str_replace('[modelname]',  ucfirst(strtolower($name)), $template);
        
