@@ -6,5 +6,9 @@ PHP light framework with flat-file NoSQL database
 
 - [ ] Documentation
 - [x] CLI Tool
+   - [ ] App installation
+   - [x] Make models command
+   - [ ] Make controllers command
+   - [ ] Fix pluralization of models name
 - [ ] Error handler
-- [ ] Add Testing
+- [ ] Testing
